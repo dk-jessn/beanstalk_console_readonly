@@ -12,5 +12,3 @@ if (!@empty($_COOKIE['tubePauseSeconds'])) {
 }
 
 include('currentTubeJobsSummaryTable.php');
-include('currentTubeJobsActionsRow.php');
-include('currentTubeJobsShowcase.php');
