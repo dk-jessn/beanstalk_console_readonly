@@ -1,4 +1,4 @@
-# Beanstalk console ![English version](http://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/22px-Flag_of_the_United_Kingdom.svg.png)
+# Read-Only Beanstalk Console ![English version](http://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/22px-Flag_of_the_United_Kingdom.svg.png)
 
 [![Latest Stable Version](https://poser.pugx.org/ptrofimov/beanstalk_console/v/stable.png)](https://packagist.org/packages/ptrofimov/beanstalk_console) [![Total Downloads](https://poser.pugx.org/ptrofimov/beanstalk_console/downloads.png)](https://packagist.org/packages/ptrofimov/beanstalk_console) [![License](https://poser.pugx.org/ptrofimov/beanstalk_console/license.png)](https://packagist.org/packages/ptrofimov/beanstalk_console)
 
@@ -75,37 +75,6 @@ To spin up a console with a beanstalkd server all at once, install [Docker Compo
     docker-compose up
 
 **Authors:** Petr Trofimov, Sergey Lysenko, Pentium10
-
---------------------------------------------------
-
-# Beanstalk консоль ![Русская версия](http://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/22px-Flag_of_Russia.svg.png)
-
-*Административная консоль для сервера очередей [Beanstalk](http://kr.github.com/beanstalkd), написанная на PHP*
-
-**Возможности**
-
-- Общий список серверов в конфиге для всех пользователей
-- Глобальный список серверов может быть установлен через переменную окружения BEANSTALK_SERVERS
-- Каждый пользователь может добавить свой персональный сервер
-- Полный список доступных труб
-- Полная статистика тасков в трубах
-- Realtime-обновление с подсветкой изменившихся значений
-- Вы можете просматривать таски в каждой трубе (ready/delayed/buried)
-- Вы можете выполнять операции с тасками в каждой трубе (add/kick/delete)
-
-**Установка**
-
-[Скачайте](https://github.com/ptrofimov/beanstalk_console/archive/master.zip), положите распакованные файлы в www папку и наслаждайтесь!
-
-**Установка с помощью vagrant**
-
-Установите [VirtualBox](https://www.virtualbox.org/wiki/Downloads) и [vagrant](http://www.vagrantup.com/downloads.html) затем запустите (в корневой директории проекта):
-
-    vagrant up
-
-После завершения провизии консоль будет доступна по адресу [http://localhost:7654](http://localhost:7654) (порт можно сконфигурировать в Vagrantfile)
-
-**Авторы:** Петр Трофимов, Сергей Лысенко, Pentium10
 
 --------------------------------------------------
 
